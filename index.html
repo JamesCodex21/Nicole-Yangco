@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nicole Yangco — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+<aside>
+  <img src="nicole.jpg" alt="Nicole Yangco" class="photo">
+  <div class="name">Nicole Yangco</div>
+  <div class="role">Computer Programming Student</div>
+  <div class="mono-tag">status: <span>learning &amp; building</span></div>
+  <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">Menu</button>
+  <nav id="mainNav">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#experience">experience</a>
+    <a href="#projects">sample-project</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <div class="side-socials">
+    <a href="mailto:nicoleyangco77@gmail.com" aria-label="Email">@</a>
+  </div>
+</aside>
+
+<main>
+  <section class="hero" id="home">
+    <div class="prompt">whoami</div>
+    <h1>Hi, I'm <span class="accent">Nicole Yangco</span> —<br>building with code.</h1>
+    <p>A computer programming student working across C#, .NET, and the web, with an eye for clean, usable design.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">See my work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>about</h2>
+    <p>I'm a computer programming student with coursework spanning C# and object-oriented programming, networking, C++, and .NET (MAUI and ASP.NET Core). Alongside coding, I design and prototype interfaces in Figma — I like the point where clear logic meets a clean, usable screen.</p>
+  </section>
+
+  <section id="experience">
+    <h2>experience</h2>
+    <div class="exp-item">
+      <h3>Connecting Wire Server to Computer</h3>
+      <div class="meta">networking</div>
+      <p>Set up a wired connection between a server and a computer, covering the physical cabling and network configuration involved.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>sample-project</h2>
+    <div class="proj-grid">
+      <div class="proj-card">
+        <h3>Weather Lookup</h3>
+        <p>A weather website built with HTML, CSS, and JavaScript, pulling live data from the Open-Meteo API with a default fallback to Cebu City.</p>
+        <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>API</span></div>
+      </div>
+      <div class="proj-card">
+        <h3>SnapCart — App Design</h3>
+        <p>A Figma app design project covering user flow diagrams and carousel prototypes for a shopping experience.</p>
+        <div class="proj-tags"><span>Figma</span><span>UI/UX</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>contact</h2>
+    <p style="color:var(--text-dim);">Reach out any time:</p>
+    <div class="contact-links">
+      <a href="mailto:nicoleyangco77@gmail.com">nicoleyangco77@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>© 2026 Nicole Yangco — built with care</footer>
+</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
